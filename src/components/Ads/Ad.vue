@@ -1,15 +1,17 @@
 <template>
-    <div>
-<h2>ad</h2>
-    </div>
+  <v-container>
+    <v-layout row>
+      <v-flex xs12>
+        <h1>Ad</h1>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>
-    export default {
-        
+  export default {
+    data () {
+      return {}
     }
+  }
 </script>
-
-<style lang="scss" scoped>
-
-</style>
